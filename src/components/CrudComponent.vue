@@ -151,7 +151,7 @@ export default {
                 : {};
 
             this.modalType = type;
-            this.showModal = this.showConfirmationModal = (type === 'delete');
+            this.showConfirmationModal = (type === 'delete');
             this.showModal = (type !== 'delete');
         }
     }
